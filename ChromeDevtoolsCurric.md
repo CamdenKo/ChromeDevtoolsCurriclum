@@ -7,3 +7,8 @@
 
 ## RECAP QUESTIONS
 After completing this section you should be able to answer the following questions:
+
+***
+
+# Devtools Tour
+Let's start off by
