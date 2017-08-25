@@ -35,3 +35,7 @@
 #hidden {
   display: none;
 }
+
+.borderTopDotted {
+  border-top: dotted 3px;
+}

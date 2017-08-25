@@ -11,4 +11,4 @@ After completing this section you should be able to answer the following questio
 ***
 
 # Devtools Tour
-Let's start off by
+Let's start off by visiting a website
