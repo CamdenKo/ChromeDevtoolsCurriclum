@@ -1,9 +1,39 @@
 .container {
   width: 70%;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .marginVert10 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.backgroundColorContent {
+  background-color: #8BB5C0;
+}
+
+.backgroundColorPadding {
+  background-color: #C2CF8A;
+}
+
+.backgroundColorBorder {
+  background-color: #FDDD9B;
+}
+
+.backgroundColorMargin {
+  background-color: #F6CA9A;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.flexAlignItemsCenter {
+  align-items: center;
+}
+
+.flexJustifyContentCenter {
+  justify-content: center;
+}
+

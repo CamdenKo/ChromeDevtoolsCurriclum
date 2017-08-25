@@ -13,6 +13,7 @@
     <h3>Getting started...</h3>
     <p>Google Chrome has lots of amazing tools that help developers speed up their development times drastically. This site will help walk you through using these tools. By the end of this, this site should be beautiful :')</p>
   </div>
+  <hr />
   <div class="marginVert10">
     <h3>Opening tools</h3>
     <p>
@@ -49,15 +50,38 @@
   </div>
   <hr />
   <div class="marginVert10">
-    <h3>Tour</h3>
+    <h3>Box-Model</h3>
     <p>
       Start by opening up the Devtools.
       <br />
       The devtools should be split into two parts: the "Elements" and the "Styles" tab.
       <br />
       <br />
-      The "Elements" tag should be fairly familiar - it's just HTML! Start by hovering over <code>&lt;html lang="en"&gt;</code>. The entire page should be colored in blue! Next hover over <code>&lt;body class="container"&gt;</code>. Interesting. There's no longer just blue, but therte's also a brown color on both the left and the right side. One great thing that Google Chrome does for us is split up elements by the Box-Model. So the acutal "Content" of the page
+      The "Elements" tag should be fairly familiar - it's just HTML! Start by hovering over <code>&lt;html lang="en"&gt;</code>. The entire page should be colored in blue! Next hover over <code>&lt;body class="container"&gt;</code>. Interesting. There's no longer just blue, but therte's also a brown color on both the left and the right side. One great thing that Google Chrome does for us is split up elements by the
+      <a href="https://www.w3schools.com/css/css_boxmodel.asp">
+        Box-Model (Now's a good time to review this if you need)
+      </a>.
+      So the acutal "Content" of the page is colored in
+      <p class="backgroundColorContent">
+        Blue
+      </p>
+      The tan color to the side is the
+      <p class="backgroundColorMargin">
+        Margin
+      </p>
+      Click on the <code>body</code> tag and watch as the "Styles" half of the page inspector transforms.
     </p>
+    <div class="displayFlex flexJustifyContentCenter">
+      <img src="boxmodel.png" class="marginVert10"/>
+    </div>
+    <p>
+      Google does a great job here of describing the size of each aspect of the box-model. When you hover one part of the box-model, that part of the box model is highlighted.
+    </p>
+  </div>
+  <hr />
+  <div class="marginVert10">
+    <h3>Navigating "Elements"</h3>
+    <p>First make sure that you can see the "Elements" tab. You should be able to see the html of the page.</p>
   </div>
 </body>
 </html>
