@@ -4,28 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <title>CSS Playground</title>
 </head>
-<body>
-  <div>
-    <a>
-      Rob Ruder inc.
-    </a>
-    <a>
-      Home
-    </a>
-    <a>
-      Landing Page
-    </a>
-    <a>
-      Buy Stuff
-    </a>
+<body class="container">
+  <h1>Inspect Element Tutorial</h1>
+  <div class="marginVert10">
+    <h3>Getting started...</h3>
+    <p>Google Chrome has lots of amazing tools that help developers speed up their development times drastically. This site will help walk you through using these tools. By the end of this, this site should be beautiful :')</p>
   </div>
-  <div>
-    <div>
-      <h1>Rob Ruder</h1>
-      <h6>Man. Myth. Legend.</h6>
-    </div>
+  <div class="marginVert10">
+    <h3>Opening tools</h3>
+    <p>
+      To open dev tools you can click on the Settings on the top-right > Tools > Developer Tools
+      <br/>
+      I highly recommend learning the keyboard shortcuts:
+      <br />
+      <br />
+      <code>
+        Devtools:
+        <br/>
+        CTRL + SHIFT + I
+        <br />
+        CMD + OPT + I
+        <br />
+        <br />
+        Devtools > Console:
+        <br />
+        CTRL + SHIFT + J
+        <br />
+        CMD + OPT + J
+        <br />
+        <br />
+        Devtools > Inspect Element Mode:
+        <br />
+        CTRL + SHIFT + C
+        <br />
+        CMD + SHIFT + C
+        <br />
+        <br />
+      </code>
+      Take some time to get used to opening these tools quickly (it'll change your life).
+    </p>
+  </div>
+  <hr />
+  <div class="marginVert10">
+    <h3>Tour</h3>
+    <p>
+      Start by opening up the Devtools.
+      <br />
+      The devtools should be split into two parts: the "Elements" and the "Styles" tab.
+      <br />
+      <br />
+      The "Elements" tag should be fairly familiar - it's just HTML! Start by hovering over <code>&lt;html lang="en"&gt;</code>. The entire page should be colored in blue! Next hover over <code>&lt;body class="container"&gt;</code>. Interesting. There's no longer just blue, but therte's also a brown color on both the left and the right side. One great thing that Google Chrome does for us is split up elements by the Box-Model. So the acutal "Content" of the page
+    </p>
   </div>
 </body>
 </html>
