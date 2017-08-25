@@ -8,7 +8,7 @@
   <title>CSS Playground</title>
 </head>
 <body class="container">
-  <h1>Inspect Element Tutorial</h1>
+  <h1>Chrome DevTools Tutorial</h1>
   <div class="marginVert10">
     <h3>Getting started...</h3>
     <p>Google Chrome has lots of amazing tools that help developers speed up their development times drastically. This site will help walk you through using these tools. By the end of this, this site should be beautiful :')</p>
@@ -110,14 +110,22 @@
       Now that you are comfortable navigating through Chrome Developer Tools, now's your chance to actually <i>develop</i>.
       One of the greatest powers you gain is the edit to live edit CSS inside of the console. Let's start by centering the text below this.
     </p>
-    <div>
-      <div>
-        Center Me!
-      </div>
+    <div id="editMe">
+      Center Me!
     </div>
     <p>
-      Start by selecting the text in the Developer Tools console.
+      Start by selecting the text in the Developer Tools console. You should now see that the text is surrounded by a div (this is done on purpose). The first thing we're going to learn is how to add <i>existing classes</i> to elements. Select the direct parent of the text, a div with the id "editMeFirst". Now, when you look above the box model you get plenty of different options. The option we are looking for is ".cls"
     </p>
+    <div class="displayFlex flexJustifyContentCenter">
+      <img src="cls.png" class="marginVert10" />
+    </div>
   </div>
+  <p>
+    After clicking on ".cls", a new textbox that says "Add new class" will appear. Inside of that textbox type in "displayFlex" and hit enter to give that div the class, "displayFlex". Inside of the stylesheet I have already defined that class to be "display: flex".
+  </p>
+  <p>
+    Now let's add our own rule to the element. Click between the curly braces in "element.style" which should now allow you to type in a new rule. Let's modify the elements justify-content. So type in justify-content and hit "Enter". This should then take you to the other side of the colon, now type in "center" and BLAM, the text is now centered.
+  </p>
+  <hr />
 </body>
 </html>
