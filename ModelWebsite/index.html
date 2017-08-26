@@ -111,7 +111,7 @@
       One of the greatest powers you gain is the edit to live edit CSS inside of the console. Let's start by centering the text below this.
     </p>
     <div id="editMe">
-      Center Me!
+      <b>Center Me!</b>
     </div>
     <p>
       Start by selecting the text in the Developer Tools console. You should now see that the text is surrounded by a div (this is done on purpose). The first thing we're going to learn is how to add <i>existing classes</i> to elements. Select the direct parent of the text, a div with the id "editMeFirst". Now, when you look above the box model you get plenty of different options. The option we are looking for is ".cls"
@@ -124,8 +124,32 @@
     After clicking on ".cls", a new textbox that says "Add new class" will appear. Inside of that textbox type in "displayFlex" and hit enter to give that div the class, "displayFlex". Inside of the stylesheet I have already defined that class to be "display: flex".
   </p>
   <p>
-    Now let's add our own rule to the element. Click between the curly braces in "element.style" which should now allow you to type in a new rule. Let's modify the elements justify-content. So type in justify-content and hit "Enter". This should then take you to the other side of the colon, now type in "center" and BLAM, the text is now centered.
+    Now let's add our own rule to the element. Click between the curly braces in "element.style" which should now allow you to type in a new rule. Let's modify the element's justify-content property. So type in justify-content and hit "Enter". This should then take you to the other side of the colon, now type in "center" and BLAM, the text is now centered.
   </p>
   <hr class="borderTopDotted" />
+  <div class="marginVert10">
+    <p>
+      Very cool. So we know how to add a class and how to edit one specific property on an element. However, we can also change the properties for an entire class!
+    </p>
+    <p>
+      Go back to the inspector and find a div with class <code>marginVert10</code> and click on it.
+    </p>
+    <p>
+      Inside of the styles page we can now see that the rule "marginVert10" gives this element a margin-top and margin-bottom of 10 px each. Let's change that to 10. To do so, click on the "0px;". After doing so, that text should now be selected. We can now either type in 10px or use the arrow keys to increment/decrement the value one at a time. Try using the "Up" arrow on the arrow key to raise the margin-top and margin-bottom to 10 px each.
+    </p>
+    <p>
+      Every div that is marked "marginVert10" should have receieved margins at this point. That's because we edited the CSS rules for the <i>class</i> meaning that all elements with that class will have their styling changed with it.
+    </p>
+  </div>
+  <hr class="borderTopDotted" />
+  <div class="marginVert10">
+    <p>
+      One last thing! Let's learn how to see how an element would look without a rule altogether. Inspect the text below and let's get started.
+    </p>
+    <span style="color: blue">Inspect Me!</span>
+    <p>
+      Hover over the color property on <code>element.style</code> and you should now see a checked checkbox to the left of the word "color". Click on this to toggle the rule. The text should return to the default color of black.
+    </p>
+  </div>
 </body>
 </html>

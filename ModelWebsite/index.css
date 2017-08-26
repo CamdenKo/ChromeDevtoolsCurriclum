@@ -4,6 +4,11 @@
   margin-bottom: 50px;
 }
 
+.marginVert10 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .backgroundColorContent {
   background-color: #8BB5C0;
 }
